@@ -1,0 +1,95 @@
+.hea{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 90px;
+    padding-top: 5px;
+}
+.cards,.after1{
+    border-radius: 10%;
+    border: 3px solid;
+    background-color: rgb(8, 8, 8);
+    box-shadow: black;
+    color: rgb(243, 223, 223);
+    width: 200px;
+    position: relative;
+    height: 200px;
+    border-color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+.cards input{
+    height: 40px;
+    font-size: 15;
+}
+
+.button{
+    background-color: rgb(71, 75, 71);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button2{
+    background-color: rgb(71, 75, 71);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#vido{
+    width: 60;
+    height: 20;
+    font-size: 12;
+    text-align: center;
+}
+
+.imgs{
+    width: 200;
+    height: 200;
+}
+.slid{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  #ani,#ani2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+  }
+  #an{
+      margin-top: 30px;
+  }
+#zom{
+  margin-top: 90px;
+}

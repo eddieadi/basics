@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="..\css\inde.css">
+    </head>
+<body>
+
+<header>
+    <div id="head" class="hea">
+        <h3>This is just a simple page of showing learning of function using HTML, CSS and javascript</h3>
+    </div>
+</header>
+
+<div class='cards'>
+<h3>As you click on button the upper portion will hide.</h3>
+<button onclick="sfun(0)" class="button">Hidden function</button>
+</div>
+
+<div id="bg" class='cards'>
+<h3>It will show time and its background will change according to it<br></h3>
+<button onclick="startTime()" id='txt' class="button">Timming function</button>
+</div>
+
+<div id="op" class='cards'>
+<h3>Addition function<br></h3>
+<input id="fir" size="6" height="4">
+<input id="sec" size="6" height="4">
+<button onclick="oprat()" id='ans' class="button">+</button>
+</div>
+
+<div id="audio" class='cards'>
+<h3>AUDIO<br>(try to guess it)<br></h3>
+<audio id="audi">
+    <source src="../media/music.mp3" type="audio/mpeg">
+    browser
+</audio>
+<button onclick="pla()" class="button">PLAY</button>
+<button onclick="stp()" class="button">STOP</button>
+</div>
+
+<div id="bg" class='cards'>
+<video id="vid" width="200" height="180">
+    <source src="../media/video.mp4" >
+</video>
+<button onclick="vpla()" id="vido" class="button2">PLAY</button>
+<button onclick="vpos()" id="vido" class="button2">PAUSE</button>
+</div>
+
+<div id="bg" class='cards'>
+<div class="slid">
+    <div class="mySlides fade">
+        <img id="imgs" src="../media/img1.jpg" alt="image" width="190" height="190">
+    </div>
+    <div class="mySlides fade">
+        <img id="imgs" src="../media/img2.jpg" alt="image" width="190" height="190">
+    </div>
+    <div class="mySlides fade">
+        <img id="imgs" src="../media/img3.jpg" alt="image" width="190" height="190">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</div>
+
+
+<div id="bg" class='cards'>
+<button onclick="anim()" id='an' class="button2">ANIMATION</button>
+    <div id ="ani"></div>
+    <div id ="ani2"></div>
+</div>
+
+<div id="zoo" class='cards'>
+<img onmouseover="zoomin()" onmouseout="zoomout()" id="zom" src="../media/zoom.jpg" width="30"/>
+</div>
+
+<script type="text/javascript" src="..\javascript\cco.js"></script>
+
+</body>
+</html>
